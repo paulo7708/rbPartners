@@ -1,0 +1,62 @@
+.carousel {
+  box-shadow: 10px 20px 50px -35px black;
+}
+
+.carousel .carousel-item {
+  height: 700px;
+
+  @media (min-width: 1441px) {
+    height: 870px;
+  }
+
+  @media (max-width: 800px) {
+    height: 500px;
+  }
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 700px;
+
+    @media (min-width: 1441px) {
+      height: 870px;
+    }
+}
+
+.carText h3, p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.desfoque {
+  text-shadow: -2px 1px 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:0.5rem;
+
+  @media (min-width: 1441px) {
+    margin-left: -50rem;
+    padding-bottom:16rem;
+  }
+
+  @media (max-width: 1441px) {
+    margin-left: -45rem;
+    padding-bottom:15rem;
+  }
+
+  @media (max-width: 1200px) {
+    margin: 0;
+    padding: 0;
+    gap:0;
+    #btn{
+      display: none;
+    }
+  }
+}
+
+
