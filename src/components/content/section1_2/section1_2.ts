@@ -12,8 +12,9 @@ export const StyledSection = styled.div`
   
 
   img {
+    object-position: top;
     width: 50%;
-    height: 100%;
+    object-fit: cover;
   }   
 
   @media (min-width: 1441px) {
@@ -34,6 +35,7 @@ export const StyledSection = styled.div`
     img {
       width: auto;
       height: 35%;
+      object-position: top;
     }
   }
   
@@ -42,7 +44,7 @@ export const StyledSection = styled.div`
     justify-content: center;
     flex-direction: column;    
     gap: 1rem;
-    width: 50%;
+    max-width: 75%;
     height: 100%;
     /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -35px; */
     padding: 0 4rem;

@@ -14,7 +14,13 @@ import video1 from '../../assets/video1.mp4'
 import { Section1_3 } from "./section1_3";
 import img1 from '../../assets/1_3_1.png'
 import img2 from '../../assets/1_3_2.png'
+import { HexTitles } from "./Section2/styles";
+
+import svg4 from '../../assets/svg/svg4.png'
+import svg5 from '../../assets/svg/svg5.png'
+import svg6 from '../../assets/svg/svg6.png'
 import { Section2 } from "./Section2";
+import { Cards } from './Section2/Cards'
 
 
 
@@ -23,24 +29,12 @@ export const Content = () => {
     <>
       <CarroselBootstrap />
       <BodyContent>
-        
+
         <ImgIcon src={favIcon} alt="icon" />
 
         <Section2 />
-        
-        <EndSection>
-          {/* <img />
-          <div>
-            <h1>
-              Faça cobranças por Pix
-            </h1>
-            <p>
-              Reduza altos custos com taxas de boleto e máquina de cartão. Além disso o Pix opera 24h por dia e 7 dias por semana.
-            </p>
-            <article><NavLink to={"/faleconosco"}>Fale conosco</NavLink></article>
-          </div> */}
 
-        </EndSection>
+
 
         <Section1_1
           id="products"
@@ -52,6 +46,23 @@ export const Content = () => {
           Utilize o Pix profissionalmente e veja suas vendas decolarem!'
           btnText="Fale conosco"
         />
+        <Cards
+          img={svg4}
+          h2='Integração Simples'
+          p='Conecte-se com sua plataforma, de maneira rapida. Recursos disponíveis para o recebedor em tempo real.'
+
+          img2={svg5}
+          h22='Integração Simples'
+          p2='Conecte-se com sua plataforma, de maneira rapida. Recursos disponíveis para o recebedor em tempo real.'
+
+          img3={svg6}
+          h23='Integração Simples'
+          p3='Conecte-se com sua plataforma, de maneira rapida. Recursos disponíveis para o recebedor em tempo real.'        
+        />
+            
+
+
+        
         <Section1_2
           id='cashIn'
           subTitle='Cash-in'
@@ -60,7 +71,7 @@ export const Content = () => {
           btnText="Fale conosco"
           img={imgRight}
         />
-        {/* <Section1_3
+        <Section1_3
          id='cashOut'
           subTitle="Cash-out"
           title='Seu parceiro para pagar, receber e gerenciar pagamentos online no Brasil.'
@@ -70,7 +81,7 @@ export const Content = () => {
           btnText="Fale conosco"
           img1={img1}
           img2={img2}
-        /> */}
+        />
 
         {/* <Section1_1
           video={video2}
@@ -82,9 +93,9 @@ export const Content = () => {
 
 
 
-        
 
-        
+
+
 
         {/* <Section id="products">
           <div>
@@ -151,7 +162,7 @@ export const Content = () => {
         </StartSection>
 
 
-        
+
 
 
       </BodyContent>

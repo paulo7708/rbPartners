@@ -12,16 +12,18 @@ export const VideoSection = styled.div`
   }
     
 
-  video {
-    object-position: center;
+  img {
+    object-position: top;
     width: 50%;
     object-fit: cover;
   }
   @media (max-width: 800px) {
     display: flex;
     flex-direction: column;
-    video{
+    img{
       width: 100%;
+      height: 15rem;
+      object-position: top;
     }
   }   
 

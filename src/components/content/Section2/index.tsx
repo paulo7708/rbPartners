@@ -4,6 +4,8 @@ import svg1 from '../../../assets/svg/svg1.png'
 import svg2 from '../../../assets/svg/svg2.png'
 import svg3 from '../../../assets/svg/svg3.png'
 
+import { Cards } from '../Section2/Cards'
+
 export const Section2 = () => {
   return (
     <>
@@ -19,26 +21,19 @@ export const Section2 = () => {
 
       </HexTitles>
 
-      <FirstSection2>
-        <div>
-          <img src={svg1} alt="" />
-          <h2>Integração Simples</h2>
-          <p>Conecte-se com sua plataforma, de maneira rapida. Recursos disponíveis para o recebedor em tempo real.</p>
-        </div>
-        <div>
-          <img src={svg2} alt="" />
-          <h2>Experiência Simples</h2>
-          <p>Experiência simples e intuitiva para o usuário final. Possibilitando pagamentos entre instituições distintas.</p>
+      <Cards
+          img={svg1}
+          h2='Integração Simples'
+          p='Conecte-se com sua plataforma, de maneira rapida. Recursos disponíveis para o recebedor em tempo real.'
 
-        </div>
-        <div>
-          <img src={svg3} alt="" />
-          <h2>Disponível</h2>
-          <p>Transações podem ser iniciadas diretamente pelo celular. Disponivel sete dias por semana, inclusive feriados.</p>
+          img2={svg2}
+          h22='Integração Simples'
+          p2='Conecte-se com sua plataforma, de maneira rapida. Recursos disponíveis para o recebedor em tempo real.'
 
-        </div>
-
-      </FirstSection2>
+          img3={svg3}
+          h23='Integração Simples'
+          p3='Conecte-se com sua plataforma, de maneira rapida. Recursos disponíveis para o recebedor em tempo real.'        
+        />
 
     </>
   )

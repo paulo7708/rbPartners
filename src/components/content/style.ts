@@ -506,10 +506,11 @@ export const EndSection = styled.section`
   justify-content: space-between;
   align-items: flex-end;
 
-  background-image: url(${endSectionBg});
+  /* background-image: url(${endSectionBg});
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: center;
+  background-position-x: center; */
+  background-color: ${(props) => props.theme["rb-cream"]};
   height: 75vh;
   width: 100%;
 
@@ -517,7 +518,6 @@ export const EndSection = styled.section`
     width: 20%;
     height: 20%;
     border-radius: 20px;
-    background: #000;
   }
 
   @media (min-width: 1400px) {
@@ -595,8 +595,4 @@ export const EndSection = styled.section`
         }
     }
   }
-
-  position: relative;
-  background-color: ${props => props.theme['blue-dark']};
-  
 `
