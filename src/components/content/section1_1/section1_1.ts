@@ -16,6 +16,7 @@ export const VideoSection = styled.div`
     object-position: top;
     width: 50%;
     object-fit: cover;
+    border-radius: 100px 0 0 100px;
   }
   @media (max-width: 800px) {
     display: flex;

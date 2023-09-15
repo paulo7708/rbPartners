@@ -9,7 +9,6 @@ export const Section = styled.section`
   color: ${props => props.theme['gray-100']};
   background-color: ${props => props.theme['white']};
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  background-color: ${(props) => props.theme["gray-700"]};
 
   @media (max-width: 1500px) {
     padding-right: 2rem;

@@ -15,6 +15,7 @@ export const StyledSection = styled.div`
     object-position: top;
     width: 50%;
     object-fit: cover;
+    border-radius: 100px 0 100px 0;
   }   
 
   @media (min-width: 1441px) {

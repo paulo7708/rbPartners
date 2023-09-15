@@ -6,7 +6,7 @@ import CarroselBootstrap from "../carrosel";
 
 import favIcon from '../../assets/logo/favicon.png'
 import { Section1_2 } from "./section1_2/index";
-import imgRight from '../../assets/quadrado1.png'
+import image from '../../assets/1_3_1.png'
 
 import { Section1_1 } from "./section1_1";
 import video1 from '../../assets/video1.mp4'
@@ -38,7 +38,7 @@ export const Content = () => {
 
         <Section1_1
           id="products"
-          video={video1}
+          image={image}
           title='É mais rápido que ler esse título'
           subTitle='Nosso Pix'
           text='
@@ -58,8 +58,7 @@ export const Content = () => {
           img3={svg6}
           h23='Integração Simples'
           p3='Conecte-se com sua plataforma, de maneira rapida. Recursos disponíveis para o recebedor em tempo real.'        
-        />
-            
+        />          
 
 
         
@@ -69,9 +68,22 @@ export const Content = () => {
           title='Receber com PIX Via API'
           text='Essa funcionalidade permite que os clientes consigam gerar QR Codes dinâmicos ou estáticos para qualquer instituição financeira, com objetivo de cobrar seus clientes e receber de forma instantânea.'
           btnText="Fale conosco"
-          img={imgRight}
+          img={image}
         />
-        <Section1_3
+
+        <ImgIcon src={favIcon} alt="icon" />
+
+        <Section1_1
+          id='cashOut'
+          subTitle="Cash-out"
+          title='Seu parceiro para pagar, receber e gerenciar pagamentos online no Brasil.'
+          text='Com o PIX é possível fazer todos os tipos de pagamento: de pessoa para pessoa, de empresa para empresa, de pessoa para empresa e vice-versa. 
+          Pode ser usado em comércio e/ou serviços em geral, em pontos de venda ou eletrônico. 
+          Para salários, seguros, impostos, benefícios sociais e taxas em geral.'
+          btnText="Fale conosco"
+          image={image}
+        />
+        {/* <Section1_3
          id='cashOut'
           subTitle="Cash-out"
           title='Seu parceiro para pagar, receber e gerenciar pagamentos online no Brasil.'
@@ -81,7 +93,7 @@ export const Content = () => {
           btnText="Fale conosco"
           img1={img1}
           img2={img2}
-        />
+        /> */}
 
         {/* <Section1_1
           video={video2}
