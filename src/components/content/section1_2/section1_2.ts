@@ -9,6 +9,16 @@ export const StyledSection = styled.div`
   height: 80vh;
   z-index: 2;
 
+  @media (min-width: 1500px) {
+    padding: 0 10rem;
+    height: 60vh;
+  }
+
+  @media (min-width: 1300px) {
+    padding: 0 5rem;
+    height: 70vh;
+  }
+
   
 
   img {

@@ -6,9 +6,16 @@ export const VideoSection = styled.div`
   display: flex;
   width: 100%;
   
+  
 
-  @media (min-width: 801px) {
-  height: 80vh;
+  @media (min-width: 1500px) {
+    padding: 0 10rem;
+    height: 60vh;
+  }
+
+  @media (min-width: 1300px) {
+    padding: 0 5rem;
+    height: 70vh;
   }
     
 
@@ -18,6 +25,7 @@ export const VideoSection = styled.div`
     object-fit: cover;
     border-radius: 100px 0 0 100px;
   }
+  
   @media (max-width: 800px) {
     display: flex;
     flex-direction: column;

@@ -23,16 +23,16 @@ export const Section2 = () => {
 
       <Cards
           img={svg1}
-          h2='Integração Simples'
-          p='Conecte-se com sua plataforma, de maneira rapida. Recursos disponíveis para o recebedor em tempo real.'
+          h2='Rápido e Seguro'
+          p='Transações concluídas em poucos segundos, recursos disponíveis para o recebedor em tempo real.'
 
           img2={svg2}
-          h22='Integração Simples'
-          p2='Conecte-se com sua plataforma, de maneira rapida. Recursos disponíveis para o recebedor em tempo real.'
+          h22='Barato'
+          p2='Gratuito para pessoa física pagadora. Custo baixo para os demais casos.'
 
           img3={svg3}
-          h23='Integração Simples'
-          p3='Conecte-se com sua plataforma, de maneira rapida. Recursos disponíveis para o recebedor em tempo real.'        
+          h23='Aberto'
+          p3='Estrutura ampla de participação, possibilitando pagamentos entre instituições distintas.'        
         />
 
     </>
