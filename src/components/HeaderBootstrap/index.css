@@ -76,9 +76,9 @@ header.rolagem #nav-links:hover{
   gap: 0.5rem;
   width: 12rem;
   height: 3rem;
-  border: 1px solid #8D8D99;
+  border: 1px solid #e29689;
   border-radius: 15px;
-  color: #fff;
+  color: #e29689;
   font-weight: bold;
   font-size:1.1rem;
   background-color: #transparent;
@@ -102,7 +102,7 @@ header.rolagem #btn:hover{
   color: #dd8270;
 }
 .img {
-  width: 10rem;
+  width: 11rem;
 }
 
 .whatsNav {

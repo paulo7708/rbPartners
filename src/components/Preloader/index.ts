@@ -7,7 +7,7 @@ export const LoaderStyle = styled.section`
   position: fixed;
   top: 0;
   left: 0;
-  background: ${props => props.theme["gray-800"]};
+  background: ${props => props.theme["gray-600"]};
   display: flex;
   justify-content: center;
   align-items: center;
