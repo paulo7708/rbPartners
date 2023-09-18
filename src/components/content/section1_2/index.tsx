@@ -1,6 +1,5 @@
 import { NavLink } from 'react-router-dom';
 import { StyledSection } from './section1_2';
-import logo from '../../../assets/1_3_1.png'
 
 interface Section1_2{
   id?: string,
@@ -24,7 +23,7 @@ export function Section1_2({ btnText, img, text, title, subTitle, id}:Section1_2
         </p>
         <article><NavLink to={"/faleconosco"}>{btnText}</NavLink></article>
       </div>
-      <img  src={logo} />
+      <img  src={img} />
     </StyledSection>    
 
   );

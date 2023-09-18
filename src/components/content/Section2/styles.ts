@@ -6,7 +6,7 @@ export const HexTitles = styled.h1`
   justify-content: center;
   align-items: center;
   gap: 0.6rem;
-  color: ${props => props.theme['white']};
+  color: ${props => props.theme['gray-500']};
   opacity: 0.9;
   
 

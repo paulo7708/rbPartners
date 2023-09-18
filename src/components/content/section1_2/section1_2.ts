@@ -111,9 +111,9 @@ export const StyledSection = styled.div`
       gap: 0.5rem;
       width: 12rem;
       height: 3rem;
-      border: 1px solid ${props => props.theme['green-100']};;
-      border-radius: 30px;
-      color: ${props => props.theme['green-100']};;
+      border: 1px solid ${props => props.theme['rb-papaia2']};;
+      border-radius: 15px;
+      color: ${props => props.theme['rb-papaia']};;
       font-weight: bold;
       font-size:1.1rem;
       background-color: transparent;
@@ -122,8 +122,8 @@ export const StyledSection = styled.div`
 
       &:hover { 
           transform: scale(1.1);
-          color: ${props => props.theme['green-400']};     
-          border-color: ${props => props.theme['green-400']};     
+          color: ${props => props.theme['rb-papaia']};     
+          border-color: ${props => props.theme['rb-papaia2']};     
         }
 
         @media (max-width: 800px) {

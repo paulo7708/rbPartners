@@ -7,7 +7,7 @@ export const Section = styled.section`
   align-items: center;
   height: 25rem;
   color: ${props => props.theme['gray-100']};
-  background-color: ${props => props.theme['white']};
+  /* background-color: ${props => props.theme['white']}; */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
   @media (max-width: 1500px) {
@@ -67,8 +67,7 @@ export const RowSection = styled.section`
     }
 
     img {
-      width: 4rem;
-      opacity: 0.6;
+      width: 18rem;
     }
     a {
       text-decoration: none;
@@ -103,7 +102,7 @@ export const EndSection = styled.section`
 
     a{
       text-decoration: none;
-      color: ${props => props.theme['gray-400']};
+      color: ${props => props.theme['rb-papaia']};
       transition: all .2s ease-in-out; 
 
       &:hover { 

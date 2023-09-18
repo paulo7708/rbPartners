@@ -6,7 +6,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import logo from '../../assets/logo/4logoNav.png'
 import logoDark from '../../assets/logo/4logoNavGray.png'
 import "./index.css"
-import { User, WhatsappLogo } from 'phosphor-react';
+import { Users, WhatsappLogo } from 'phosphor-react';
 import { useState } from 'react';
 //xl|lg|md|sm
 
@@ -32,7 +32,8 @@ export const HeaderBootstrap = () => {
             as={Link}
             to={"/#Home"}
           >
-            <img className='img' src={ darkLogo ? logo : logoDark } alt="" />
+            {/* <img className='img' src={ darkLogo ? logo : logoDark } alt="" /> */}
+            <img className='img' src={ logoDark } alt="" />
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -49,18 +50,18 @@ export const HeaderBootstrap = () => {
 
               <Nav.Link eventKey="2" id='nav-links' className='ms-auto me-auto'
                 as={Link}
-                to={"/#products"}>Serviços
+                to={"/#products"}>Produtos
               </Nav.Link>
 
               <Nav.Link eventKey="3" id='nav-links' className='ms-auto me-auto'
                 as={Link}
-                to={"/#API"}>Institucional
+                to={"/#API"}>Saiba mais
               </Nav.Link>
 
               <Nav.Link eventKey="4" type="button" id='btn' className="nav-links ms-auto me-auto"
                 as={Link}
                 to={"/faleconosco"}
-              ><User size={28}/>Atendimento
+              ><Users size={28} weight="fill"/>Atendimento
               </Nav.Link>
 
               <a className='whatsNav' href="https://wa.me/5511920181537" target="_blank"><WhatsappLogo size={33} /></a>

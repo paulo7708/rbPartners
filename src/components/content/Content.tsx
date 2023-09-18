@@ -6,7 +6,10 @@ import CarroselBootstrap from "../carrosel";
 
 import favIcon from '../../assets/logo/favicon.png'
 import { Section1_2 } from "./section1_2/index";
-import image from '../../assets/1_3_1.png'
+
+import image1 from '../../assets/1_3_1.png'
+import image2 from '../../assets/1_3_2.png'
+import image3 from '../../assets/1_3_3.png'
 
 import { Section1_1 } from "./section1_1";
 
@@ -32,7 +35,7 @@ export const Content = () => {
 
         <Section1_1
           id="products"
-          image={image}
+          image={image1}
           title='É rápido e fácil'
           subTitle='Nosso Pix'
           text='
@@ -61,7 +64,7 @@ export const Content = () => {
           title='Receba com PIX Via API'
           text='Simplifique o procedimento de cobrança instantânea, obtenha um QR Code permanente para que seu cliente ou parceiro possa efetuar o pagamento com maior comodidade, ou crie um QR Code em constante mudança, proporcionando maior segurança e rastreabilidade para cada recebimento em sua conta.'
           btnText="Fale conosco"
-          img={image}
+          img={image2}
         />
 
         <ImgIcon src={favIcon} alt="icon" />
@@ -72,7 +75,7 @@ export const Content = () => {
           title='Seu parceiro para pagar, receber e gerenciar pagamentos online no Brasil.'
           text='Efetue uma ampla variedade de pagamentos: entre indivíduos, entre empresas, de indivíduos para empresas. Pode ser aplicado no setor comercial e de serviços, tanto em ambientes físicos de venda quanto em transações eletrônicas. Também é adequado para quitar salários, seguros, impostos, benefícios sociais e várias outras taxas.'
           btnText="Fale conosco"
-          image={image}
+          image={image3}
         />
         {/* <Section1_3
          id='cashOut'
@@ -157,7 +160,7 @@ export const Content = () => {
               Venda mais conosco!
             </h1>
             <p>
-              Com nossa API,  API, você melhora a eficiência do processo de envio e recebimento de transações Pix. Deseja receber pagamentos instantâneos? Inicie já!
+              Com nossa API, você melhora a eficiência do processo de envio e recebimento de transações Pix. Deseja receber pagamentos instantâneos? Inicie já!
             </p>
             <article><NavLink to={"/faleconosco"}>Entre em contato</NavLink></article>
           </div>

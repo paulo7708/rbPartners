@@ -31,17 +31,17 @@ export const FirstStyle = styled.section`
     
     h1 {
       font-size: 1.3rem;
-      color: ${props => props.theme['white']};
+      color: ${props => props.theme['rb-papaia']};
     }
     h2{
       font-family: 'Oldenburg', cursive;
-      color: ${props => props.theme['white']};
+      color: ${props => props.theme['rb-papaia']};
     }
     h3 {
       font-size: 1rem;
     }
     p{
-      font-size: 0.8rem
+      font-size: 1.1rem
     }
 
     

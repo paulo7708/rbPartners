@@ -156,6 +156,9 @@ export const StartSection = styled.section`
   background-position-x: center;
   
 
+  
+  
+
   img {
     min-width: 28%;
     border-radius: 20px;
@@ -176,6 +179,7 @@ export const StartSection = styled.section`
       }
 
   }
+
   @media (max-width: 800px) {
     display: flex;
     flex-direction: column-reverse;
@@ -183,6 +187,7 @@ export const StartSection = styled.section`
     
 
     div {
+      
       h1 {
         font-size: 1.2rem;
       }
@@ -220,6 +225,19 @@ export const StartSection = styled.section`
     padding: 5rem 0;
     margin: 3rem 9.5rem;
 
+    @media (min-width: 1500px) {
+      h1 {
+        font-size: 3rem;
+      }
+      h3 {
+        font-size: 1.2rem;
+      }
+      p {
+        font-size: 2rem;
+      }
+      width: 30%;
+    }
+
     @media (max-width: 768px) {
       width: 100%;
       padding: 1rem 0;      
@@ -227,7 +245,7 @@ export const StartSection = styled.section`
     }
     
     h1{
-      font-family: 'Oldenburg', cursive;
+      font-family: 'Eras';
       color: ${props => props.theme['gray-100']};
       opacity: 0.9;
       text-shadow: -2px 1px 2px black;

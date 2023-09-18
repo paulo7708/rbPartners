@@ -1,6 +1,6 @@
 import { Copyright, Envelope, FacebookLogo, GlobeHemisphereWest, InstagramLogo, PhoneCall, TwitterLogo } from "phosphor-react"
 import { EndSection, RowSection, Section } from "./style"
-import logo from '../../assets/logo/favicondARK.png'
+import logo from '../../assets/logo/4fullDark.png'
 import { Nav } from "react-bootstrap"
 import { HashLink as Link } from 'react-router-hash-link';
 
@@ -20,7 +20,7 @@ export const Footer = () => {
           <div>
             <a href="https://wa.me/5511920157473" target="_blank"><p><PhoneCall size={32} weight="duotone" />(11) 92018-1537
             </p></a>
-            <p><Envelope size={32} weight="duotone" />atendimento@semprepagomeios.com</p>
+            <p><Envelope size={32} weight="duotone" />atendimento@rbpartnerssolution.com</p>
           </div>
         </div>
         <div>
