@@ -22,10 +22,10 @@ export const Form = () => {
 
     await emailjs
       .send(
-        "service_lqql03p", //service ID
-        "template_xtbfjvq", //template ID
+        "service_fefognw", //service ID
+        "template_sbnji6g", //template ID
         templateParams,
-        "Dfc1fTnKZKMzJYFsS" //Public Key
+        "2TCFjoIEaXjjbq1PP" //Public Key
       )
       .then(
         (response) => {

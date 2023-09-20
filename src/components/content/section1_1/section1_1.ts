@@ -11,6 +11,18 @@ export const VideoSection = styled.div`
   @media (min-width: 1500px) {
     padding: 0 10rem;
     height: 60vh;
+
+    div {
+      h1{
+          font-size: 3rem;
+        }
+      h3 {
+        font-size: 2rem;
+      }
+      p{
+        font-size: 2rem;
+      }
+    }
   }
 
   @media (min-width: 1300px) {
@@ -66,11 +78,20 @@ export const VideoSection = styled.div`
       
     }
 
-    h1{
-      font-size: 2.3rem;
+    h1{      
       color: ${props => props.theme['gray-600']};
       opacity: 0.9;
       font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+      /* @media (min-width: 1500px) {
+        h1{
+          font-size: 5rem;
+        }
+      } */
+
+      @media (max-width: 1499px) {
+        font-size: 2.3rem;
+      }
 
       @media (max-width: 800px) {
         font-size: 1.5rem;

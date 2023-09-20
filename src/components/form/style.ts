@@ -73,7 +73,7 @@ export const FormContainer = styled.section`
   flex-direction: column;  
   margin: 1rem 0;
   background-color: #fff;
-  background-color: transparent;
+  background-color: white;
 
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
@@ -92,7 +92,7 @@ export const FormContainer = styled.section`
 
   h1 {
     margin-bottom: 14px;
-    color: ${props => props.theme["white"]};
+    color: ${props => props.theme["gray-500"]};
     font-family: Eras;
 
   }
@@ -140,13 +140,13 @@ export const FormContainer = styled.section`
     border-radius: 10px;
     border: 0;
     cursor: pointer;
-    background-color: ${props => props.theme["blue-500"]};
+    background-color: ${props => props.theme["rb-papaia"]};
     font-size: 18px;
     color: #fff;
     transition: background-color, transform 0.8s;
 
     &:hover {
-      background-color:${props => props.theme["blue-600"]};
+      background-color:${props => props.theme["rb-papaia2"]};
       transform: scale(1.01);
   }
   }

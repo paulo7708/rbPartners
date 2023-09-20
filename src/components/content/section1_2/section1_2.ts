@@ -28,8 +28,21 @@ export const StyledSection = styled.div`
     border-radius: 100px 0 100px 0;
   }   
 
-  @media (min-width: 1441px) {
-    /* margin-bottom: -12.15rem; */
+  @media (min-width: 1500px) {
+    padding: 0 10rem;
+    height: 60vh;
+
+    div {
+      h1{
+          font-size: 3rem;
+        }
+      h3 {
+        font-size: 2rem;
+      }
+      p{
+        font-size: 2rem;
+      }
+    }
   }  
 
   @media (max-width: 1440px) {

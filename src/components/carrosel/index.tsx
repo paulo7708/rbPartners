@@ -19,8 +19,8 @@ function CarroselBootstrap() {
           alt="First slide"
         />
         <Carousel.Caption className='desfoque carText'>
-          <h3>Seu parceiro nos Pagamentos</h3>
-          <p>Potencializando seu Negócio.</p>
+          <h3>Pagamentos Pix Instantâneos</h3>
+          <p>Agilizando seu Negócio.</p>
           <Nav.Link type="button" id='btn' className="nav-links ms-auto me-auto"
             as={Link}
             to={"/faleconosco"}
@@ -36,8 +36,8 @@ function CarroselBootstrap() {
         />
 
         <Carousel.Caption className='desfoque'>
-          <h3>Pensado para Você!</h3>
-          <p>Personalizado.</p>
+          <h3>Pensado para seu negócio!</h3>
+          <p>Personalizado</p>
           <Nav.Link type="button" id='btn' className="nav-links ms-auto me-auto"
             as={Link}
             to={"/faleconosco"}
@@ -53,9 +53,9 @@ function CarroselBootstrap() {
         />
 
         <Carousel.Caption className='desfoque'>
-          <h3>Pronto para começar?</h3>
+          <h3>Você a um click</h3>
           <p>
-            Venha conosco!
+            Do sucesso!
           </p>
           <Nav.Link type="button" id='btn' className="nav-links ms-auto me-auto"
             as={Link}
